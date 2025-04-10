@@ -1,4 +1,4 @@
 colours = ["blue", "red", "purple", "green"]
 
-for color in colours:
-    print(color + " is a nice color")
+for index, color in enumerate(colours):
+    print(str(index) + ": " + color + " is a nice color")
